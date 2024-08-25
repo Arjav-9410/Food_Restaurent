@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.navbar{
+    height: 100px;
+    background-color:rgb(243, 208, 53);
+    color: black;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    font-family: 'Courier New', Courier, ;
+    
+    font-weight: bold;
+    position: sticky;
+    
+}
+
+.nav-option{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    
+}
+.nav-image{
+    background-image: url("food\ logo.png");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 30px;
+    position: sticky;
+    
+}
+.nav-option a{
+    padding-left: 50px;
+    font-size: 1.3rem;
+    margin: 30px;
+    position: sticky;
+    
+}
+.nav-option i{
+    padding-right: 3px;
+}
+.nav-logo p{
+    font-size: 2.1rem;
+    padding-left: 50px;
+    text-decoration: underline;
+    padding-left: 150px;
+   
+
+}
+.nav-option a:hover{
+    text-decoration: underline;    
+    transition:  ease-in;
+} 
+.box1{
+    
+    height: 550px;
+    
+    border: 2px solid none;
+    border-bottom: 0.85px rgb(27, 29, 22) solid;
+    background-image: url("WhatsApp\ Image\ 2024-08-21\ at\ 6.13.21\ PM.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.button{
+    margin-left: 140px;
+    margin-top: 385px;
+    text-decoration: none;
+    border: 1.5px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+
+    
+}
+.button a{
+    text-decoration: none;
+}
+.box1-content P{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: px;
+    color: rgb(255, 152, 17);
+    
+
+}
+.box2{
+    height: 300px;
+    background-color: rgb(243, 208, 53);
+    background-repeat: no-repeat;
+    
+}
+.box2 p{
+    font-size: 50px;
+    text-align: center;
+    color: maroon;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+}
+.box2-text p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+.box3{
+    height: 200px;
+    border: 2px none solid;
+    display: flex;
+    border: none;
+}
+.box3-1{
+    width: 20%;
+    border: 2px black solid;
+    background-image: url("https://th.bing.com/th/id/OIP.maQpFJiRuDMauaTZ3N7KiQHaEo?w=302&h=188&c=7&r=0&o=5&pid=1.7");
+    background-size: cover;
+    border: none;
+    transition: ease-in ;
+}
+.box3-1:hover{
+    width: 20%;
+    border: 2px black solid;
+    background-image: url("https://th.bing.com/th/id/OIP.LjVBYFCToUWTCy1hrZBs3QHaFC?rs=1&pid=ImgDetMain");
+    background-size: cover;
+    border: none;
+    transition:  ease-in-out;
+    transition-delay: 0.25;
+     
+}
+
+.box3-2{
+    width: 20%;
+    border: 2px black solid;
+    background-image: url("https://th.bing.com/th/id/OIP.5cKK4EpFFOJZaETgZQ2HyAHaEK?w=287&h=180&c=7&r=0&o=5&pid=1.7");
+    background-size: cover;
+    border: none;
+}
+.box3-2:hover{
+    width: 20%;
+    border: 2px black solid;
+    background-image: url("https://th.bing.com/th/id/OIP.LjVBYFCToUWTCy1hrZBs3QHaFC?rs=1&pid=ImgDetMain");
+    background-size: cover;
+    border: none;
+    transition:  ease-in-out;
+    transition-delay: 0.25;
+     
+}
+.box3-3{
+    width: 20%;
+    border: 2px black solid;
+    background-image: url("https://th.bing.com/th/id/OIP.R6Y1yAxnp-z9WLbjv0ph-AHaE8?w=290&h=193&c=7&r=0&o=5&pid=1.7");
+    background-size: cover;
+    border: none;
+}
+.box3-3:hover{
+    width: 20%;
+    border: 2px black solid;
+    background-image: url("https://th.bing.com/th/id/OIP.-eSJo3nxrnVnoqVGUX431AHaGh?w=198&h=180&c=7&r=0&o=5&pid=1.7");
+    background-size: cover;
+    border: none;
+    transition:  ease-in-out;
+    transition-delay: 0.25;
+     
+}
+.box3-4{
+    width: 20%;
+    border: 2px black solid;
+    background-image: url("https://th.bing.com/th/id/OIP.ery0vTp45O1WUOHZ7TWhhgHaE8?w=290&h=193&c=7&r=0&o=5&pid=1.7");
+    background-size: cover;
+    border: none;
+}
+.box3-4:hover{
+    width: 20%;
+    border: 2px black solid;
+    background-image: url("https://th.bing.com/th/id/OIP.qIBkr1Z7bnchJYjkrk1j2QHaEw?w=276&h=180&c=7&r=0&o=5&pid=1.7");
+    background-size: cover;
+    border: none;
+    transition:  ease-in-out;
+    transition-delay: 0.25;
+     
+}
+.box3-5{
+    width: 20%;
+    border: 2px black solid;
+    background-image: url("https://th.bing.com/th/id/OIP.6fJfnp2vLjVefES1h3xGugHaE8?w=291&h=194&c=7&r=0&o=5&pid=1.7");
+    background-size: cover;
+    border: none;
+}
+.box3-5:hover{
+    width: 20%;
+    border: 2px black solid;
+    background-image: url("https://th.bing.com/th/id/OIP.LjVBYFCToUWTCy1hrZBs3QHaFC?rs=1&pid=ImgDetMain");
+    background-size: cover;
+    border: none;
+    transition:  ease-in-out;
+    transition-delay: 0.25;
+     
+}
+
+
+.box4{
+    height: 1000px;
+    background-color:  rgb(243, 208, 53);
+}
+.box4-img1{
+    height: 350px;
+    width: 350px;
+    background-image: url("https://th.bing.com/th/id/OIP.RWxHHdgNaidR3t5IX6hkmAHaE8?w=255&h=180&c=7&r=0&o=5&pid=1.7");
+    background-size: cover;
+    
+
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.about{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    position: relative;
+    bottom: 250px;
+    left: 700px;
+    
+}
+.about-text{
+    height: 300px;
+    width: 300px;
+    background-image: url("https://th.bing.com/th/id/OIP.4OTqWLg7ocwyMFURdQAzyQAAAA?rs=1&pid=ImgDetMain");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 250px;
+    left: 700px;
+}
+
+.box4-img2{
+    height: 350px;
+    width: 350px;
+    background-image: url("food\ in\ hand.png");
+    background-size: cover;
+    position: relative;
+    bottom: 245px;
+    left: 500px;
+}
+.percent{
+    font-size: 75px;
+    color: rgb(255, 49, 49);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+.discount{
+    font-size: 45px;
+    color:maroon;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+ 
+}
+
+.on{
+    font-size: 35px;
+    color:cyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+.box4-text2{
+    position: relative;
+    bottom: 60px;
+    left: 390px;
+    z-index: 1;
+}
+
+.box5{
+    height: 400px;
+    background-color: maroon;
+}
+
+.offer-text{
+    font-size: 40px;
+    color:rgb(243, 208, 53) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 40px;
+    left: 80px;
+}
+.box5 p{
+    color: rgb(243, 208, 53);
+    font-size: 14px;
+    position: relative;
+    left: 90px;
+    top: 60px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+
+
+}
+.box5--button{
+    color: maroon;
+    background-color:rgb(243, 208, 53) ;
+    text-align: center;
+    font-size: 14px;
+    height: 60px;
+    width: 200px;
+    border-radius: 40px;
+    border: none;
+    position: relative;
+    top: 90px;
+    left: 90px;
+}
+.box5-img2{
+    background-image: url("chips.png");
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 100px;
+    left: 600px;
+}
+
+.box6{
+    height: 250px;
+   background-color: rgb(243, 208, 53);
+}
+
+.box6 p{
+    font-size: 40px;
+    color:maroon ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+}
+.email{
+    height: 35px;
+    width: 270px;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: 500;
+    border: none;
+    position: relative;
+    left: 450px;
+    top: 50px;
+}
+
+.box6-butt{
+    height: 35px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 500;
+    border: none;
+    position: relative;
+    left: 400px;
+    top: 50px;
+    background-color: maroon;
+    color: yellow;
+}
+
+.footer-text{
+    height: 400px;
+    background-color: maroon;
+    color: rgb(243, 208, 53);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    
+}
+.footer-text ul a{
+    display: block;
+    margin-top: 10px;
+}
+.footer-text ul p{
+   font-size: 22px; 
+}
+.footer-text ul a:hover{
+    text-decoration: underline;
+}
+.icons {
+    height: 40px;
+    width: 40px;
+    display: flex;
+   margin-left: 20px;
+   position: relative;
+   top: 300px;
+   right: 500px;
+
+}
+
+.icons i{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+}
